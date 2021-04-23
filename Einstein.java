@@ -74,7 +74,7 @@ final class Einstein {
       // Outputs the mass and energy and how many kiloton
       // bombs its equal to
       System.out.println("If " + (mass) + " kg of mass was converted to"
-      + "energy, it would " + "produce " + (energy) + "J of energy. This"
+      + "energy, it would " + "produce " + (energy) + "J of energy. This "
       + "would be the equivalent of a " + (bomb) + " kiloton bomb. ");
 
     } else {
