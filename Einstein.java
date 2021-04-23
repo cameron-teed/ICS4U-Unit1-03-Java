@@ -25,7 +25,7 @@ final class Einstein {
    */
    public static final double POW1 = 2;
   /**
-  * Declaring exponent variable.
+  * Declaring bomb variable.
   */
   public static final double POW2 = 4;
   /**
@@ -41,7 +41,7 @@ final class Einstein {
    */
   public static final double POW5 = 8;
   /**
-  * Declaring exponent variable.
+  * Declaring light variable.
   */
   public static final double POW6 = 2.998;
 
