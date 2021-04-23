@@ -1,6 +1,6 @@
 /*
-* The Einstein program uses his famous equation to find the energy of an inputted
-* then determine how many kiloton bombs its equivalent to
+* The Einstein program uses his famous equation to find the energy of an
+* inputted then determine how many kiloton bombs its equivalent to
 *
 *
 * @author  Cameron Teed
@@ -65,7 +65,7 @@ final class Einstein {
     if (myObj.hasNextFloat()) {
 
       // Read double input
-      double mass = myObj.nextFloat();
+      float mass = myObj.nextFloat();
 
       //process (calculates energy and amount of kiloton bombs)
       double energy = mass * Math.pow(lightSpeed, POW1);
@@ -73,8 +73,8 @@ final class Einstein {
 
       // Outputs the mass and energy and how many kiloton
       // bombs its equal to
-      System.out.println("If " + (mass) + " kg of mass was converted to"
-      + "energy, it would " + "produce " + (energy) + "J of energy. This "
+      System.out.println("If " + (mass) + " kg of mass was converted to "
+      + "energy, it would " + "produce " + (energy) + "(J). This "
       + "would be the equivalent of a " + (bomb) + " kiloton bomb. ");
 
     } else {
